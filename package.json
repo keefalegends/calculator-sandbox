@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/azure-pipelines-samples/node.js"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "build": "exit 0",
