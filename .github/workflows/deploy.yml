@@ -45,15 +45,6 @@ jobs:
       run: |
         kubectl apply -f k8s/name: Deploy to EKS
 
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
     steps:
 
     - name: Checkout code
